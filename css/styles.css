@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*!
+/*! 
 * Start Bootstrap - Freelancer v7.0.6 (https://startbootstrap.com/theme/freelancer)
 * Copyright 2013-2022 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
@@ -11287,6 +11287,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
 html {
   height: 100%;
   scroll-padding-top: calc(4.5rem - 1px);
@@ -11295,10 +11296,12 @@ html {
 .page-section {
   padding: 6rem 0;
 }
+
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
@@ -11313,6 +11316,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 .divider-custom .divider-custom-line {
   width: 100%;
   max-width: 7rem;
@@ -11321,19 +11325,24 @@ html {
   border-radius: 1rem;
   border-color: #2c3e50;
 }
+
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
 }
+
 .divider-custom .divider-custom-line:last-child {
   margin-left: 1rem;
 }
+
 .divider-custom .divider-custom-icon {
   color: #2c3e50;
   font-size: 2rem;
 }
+
 .divider-custom.divider-light .divider-custom-line {
   background-color: #fff;
 }
+
 .divider-custom.divider-light .divider-custom-icon {
   color: #fff;
 }
@@ -11358,25 +11367,34 @@ html {
   padding-bottom: 1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
+  opacity: 0.9;
+  background-color: #0f6264;
 }
+
 #mainNav .navbar-brand {
   color: #fff;
 }
+
 #mainNav .navbar-nav {
   margin-top: 1rem;
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #1abc9c;
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
   color: #1abc9c;
 }
+
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
@@ -11387,60 +11405,62 @@ html {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     transition: padding-top 0.3s, padding-bottom 0.3s;
+    background-color: transparent;
   }
+
   #mainNav .navbar-brand {
     font-size: 1.75em;
     transition: font-size 0.3s;
   }
+
   #mainNav .navbar-nav {
     margin-top: 0;
   }
+
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    color: #1abc9c;
   }
+
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    color: #1abc9c;
   }
 
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    background-color: #0f6264;
   }
+
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
-}
-.form-floating input.form-control,
-.form-floating textarea.form-control {
-  font-size: 1.5rem;
-  border-left: 0;
-  border-right: 0;
-  border-top: 0;
-  border-radius: 0;
-  border-width: 1px;
-}
-.form-floating input.form-control:focus,
-.form-floating textarea.form-control:focus {
-  box-shadow: none;
-}
-.form-floating label {
-  font-size: 1.5rem;
-  color: #6c757d;
 }
 
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/fundo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
+
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
 }
+
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
+
 .masthead .masthead-avatar {
   width: 15rem;
 }
@@ -11450,15 +11470,18 @@ html {
     padding-top: calc(6rem + 104px);
     padding-bottom: 6rem;
   }
+
   .masthead .masthead-heading {
     font-size: 4rem;
     line-height: 3.5rem;
   }
+
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
 }
-.portfolio .portfolio-item {
+
+.rabv .rabv-item {
   cursor: pointer;
   position: relative;
   display: block;
@@ -11466,7 +11489,8 @@ html {
   border-radius: 0.5rem;
   overflow: hidden;
 }
-.portfolio .portfolio-item .portfolio-item-caption {
+
+.rabv .rabv-item .rabv-item-caption {
   position: absolute;
   top: 0;
   left: 0;
@@ -11474,24 +11498,28 @@ html {
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
-.portfolio .portfolio-item .portfolio-item-caption:hover {
+
+.rabv .rabv-item .rabv-item-caption:hover {
   opacity: 1;
 }
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+
+.rabv .rabv-item .rabv-item-caption .rabv-item-caption-content {
   font-size: 1.5rem;
 }
 
-.portfolio-modal .btn-close {
+.rabv-modal .btn-close {
   color: #1abc9c;
   font-size: 2rem;
   padding: 1rem;
 }
-.portfolio-modal .portfolio-modal-title {
+
+.rabv-modal .rabv-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+
 @media (min-width: 992px) {
-  .portfolio-modal .portfolio-modal-title {
+  .rabv-modal .rabv-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
   }
@@ -11500,10 +11528,32 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #0f6264;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #094546;
+}
+
+/* Barra */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #094546;
+  border: 3px solid transparent;
+}
+
+#about{
+  background-color: #0f6264;
+}
+
+#texto{
+  text-align: justify;
 }
