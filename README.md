@@ -1,4 +1,4 @@
-# PORTAL RABV
+## PORTAL RABV
 
 <img align="center" with="100%" src="portal.png" />
 
@@ -6,7 +6,7 @@ Portal dedicado a falar sobre o Vírus da Raiva.
 
 Trabalho interdisciplinar das matérias de biologia, programação web e programação de aplicativos mobiles.
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 <div style="display: inline_block"><br>
 
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
@@ -21,6 +21,6 @@ Trabalho interdisciplinar das matérias de biologia, programação web e program
   
 </div>
 
-# Link:
+## Link:
 
 https://gabriel-antonio-souto.github.io/portal_rabies_virus/
